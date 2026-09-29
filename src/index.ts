@@ -21,4 +21,7 @@ app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
 
+app.get('/logan', (_req,res)=>{
+  res.send('Hello from Logan!');
+});
 export default app;
