@@ -17,6 +17,10 @@ app.get('/abdel', (_req, res) => {
   res.send('Hello from Abdel!!!!!!!!!!!!!!!');
 });
 
+app.get('/denizhan', (_req, res) => {
+  res.send('Hello from Denizhan !');
+})
+
 app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
